@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Olimpiade Paris 2024</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Pendaftaran Olimpiade Paris 2024</h1>
+    </header>
+
+    <!-- Form Section -->
+    <main class="form-section">
+        <section class="form-container">
+            <h2>Daftarkan Diri Anda</h2>
+            <p>Isi formulir di bawah ini untuk mendaftar sebagai peserta dalam Olimpiade Paris 2024.</p>
+            <form action="#" method="post">
+                <label for="name">Nama Lengkap:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="country">Negara:</label>
+                <input type="text" id="country" name="country" required>
+
+                <label for="sport">Cabang Olahraga:</label>
+                <select id="sport" name="sport" required>
+                    <option value="atletik">Atletik</option>
+                    <option value="renang">Renang</option>
+                    <option value="sepakbola">Sepak Bola</option>
+                    <option value="bulutangkis">Bulutangkis</option>
+                    <option value="basket">Basket</option>
+                    <option value="voli">Voli</option>
+                    <!-- Tambahkan opsi lainnya sesuai kebutuhan -->
+                </select>
+
+                <label for="message">Pesan Tambahan:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Tambahkan informasi tambahan (opsional)"></textarea>
+
+                <button type="submit" class="submit-button">Kirim Pendaftaran</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Olimpiade Paris 2024 | Semua Hak Dilindungi</p>
+    </footer>
+
+    <style>
+        /* Form Page Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .form-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+        .form-container {
+            width: 100%;
+            max-width: 500px;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .form-container h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+
+        .form-container p {
+            font-size: 1rem;
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        form label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-align: left;
+        }
+
+        form input, form select, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .submit-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .submit-button:hover {
+            background-color: #45a049;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9rem;
+        }
+    </style>
+</body>
+</html>
