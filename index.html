@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olimpiade Paris 2024 - Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Olimpiade Musim Panas Paris 2024</h1>
+        <nav>
+            <a href="#about">Tentang</a>
+            <a href="#schedule">Jadwal</a>
+            <a href="form.html">Pendaftaran</a>
+        </nav>
+    </header>
+
+
+
+    <!-- Tentang Olimpiade Paris 2024 -->
+    <section id="about" class="about">
+        <h2>Tentang Olimpiade Paris 2024</h2>
+        <p>Olimpiade Musim Panas 2024 akan diselenggarakan di Paris, Prancis, dari 26 Juli hingga 11 Agustus 2024. Acara ini diharapkan menjadi ajang bergengsi bagi atlet dari seluruh dunia untuk menunjukkan keahlian mereka dalam berbagai cabang olahraga.</p>
+        <img src="olimpiade.png" alt="Logo Olimpiade Paris 2024" class="about-image">
+    </section>
+
+    <!-- Jadwal Utama -->
+    <section id="schedule" class="schedule">
+        <h2>Jadwal Utama</h2>
+        <ul>
+            <li>26 Juli 2024 - Upacara Pembukaan</li>
+            <li>27 Juli - 10 Agustus 2024 - Pertandingan</li>
+            <li>11 Agustus 2024 - Upacara Penutupan</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Olimpiade Musim Panas Paris. Hak Cipta Dilindungi Undang-Undang.</p>
+    </footer>
+
+    <style>
+        /* Basic Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Banner Section */
+        .banner {
+            position: relative;
+            width: 100%;
+            height: 60vh;
+            overflow: hidden;
+        }
+
+        .banner-image {
+            width: 50%;
+            height: 50%;
+            object-fit: cover;
+            filter: brightness(70%);
+        }
+
+        .banner-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+        }
+
+        .banner-text h2 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        .banner-text p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff6f61;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .cta-button:hover {
+            background-color: #ff4b47;
+        }
+
+        /* About Section */
+        .about {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .about-image {
+            margin-top: 20px;
+            width: 150px;
+            border-radius: 8px;
+        }
+
+        /* Schedule Section */
+        .schedule {
+            background-color: #f4f4f4;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .schedule h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .schedule ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 1.1rem;
+        }
+
+        .schedule ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9rem;
+        }
+    </style>
+</body>
+</html>
